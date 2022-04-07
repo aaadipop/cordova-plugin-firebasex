@@ -6,9 +6,9 @@ export interface IChannelOptions {
     vibration?: boolean | number[]
     light?: boolean
     lightColor?: string
-    importance?: 0 | 1 | 2 | 3 | 4
+    importance? = 0 | 1 | 2 | 3 | 4
     badge?: boolean
-    visibility?: -1 | 0 | 1
+    visibility? = -1 | 0 | 1
     usage?: number
     streamType?: number
 }
